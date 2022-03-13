@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4bc21567f434b598a3c96ba4946372, type: 3}
+  m_Name: AssetReferenceDB
+  m_EditorClassIdentifier: 
+  m_assets:
+  - m_assetDatabaseId: 43ce5aba1c4fc774d89d8d4c5e195faa
+    m_importFrom: Assets/LayoutHelper/Scripts/LayoutHelperSample.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 8cfbd5df1b0ca1748a4f32d29565794e
+    m_importFrom: Assets/AddressableAssets/UI/BaseImage.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1b8b4fd55b38cf54e879cd5522b96e5c
+    m_importFrom: Assets/AddressableAssets/UI/HorizontalScrollView.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9ef37d7f9d4ca124393f8a0be013bb04
+    m_importFrom: Assets/AddressableAssets/UI/LabelButton.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 238325e0199380e4b8ca4c75865d8cbe
+    m_importFrom: Assets/AddressableAssets/UI/Text.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f0cd5b04d69665040a8eb5f6e6448798
+    m_importFrom: Assets/AddressableAssets/UI/ToggleLeft.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e0ad5c79186d34d42a862e6c816ec7af
+    m_importFrom: Assets/AddressableAssets/UI/ToggleRight.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4293d84e500c9f74e8ab3de73aa0688c
+    m_importFrom: Assets/AddressableAssets/UI/VerticalScrollView.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 48f0cdd0c0cb2174a85c92b7e904cb04
+    m_importFrom: Assets/AssetGraph/Asset Graph.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: cbb02387691fda145bb85200b080a48a
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0f9f9f62c6e0c6e4bb286a550c2e54d0
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 74a1b944187f3b14baa67030e70c0222
+    m_importFrom: Assets/LayoutHelper/Scenes/ScriptSamleScene.unity
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 45cedde968e7b6249af42ecaafeac4f2
+    m_importFrom: Assets/LayoutHelper/Scenes/LayoutHelperSampleScene.unity
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: badf2b9e29f9d604582c1712c9e8ddcd
+    m_importFrom: Assets/LayoutHelper/Scripts/LayoutHelper.cs
+    m_exportTo: 
+    m_variantName: 
+  m_version: 2

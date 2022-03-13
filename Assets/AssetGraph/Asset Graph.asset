@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec4882d68a9346b3b5f8ecf1e38a534, type: 3}
+  m_Name: Asset Graph
+  m_EditorClassIdentifier: 
+  m_allNodes:
+  - m_name: Load From UI
+    m_id: f8939767-14c8-405b-ab8a-c054f5c97da5
+    m_x: 60
+    m_y: 132
+    m_nodeInstance:
+      m_className: UnityEngine.AssetGraph.Loader, Unity.AssetGraph.Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2xvYWRQYXRoIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJBZGRyZXNzYWJsZUFzc2V0cy9VSSJ9XX0sIm1fbG9hZFBhdGhHdWlkIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJmYmY2M2MwZmEwNDc2Yjk0YzgxYjhkNjI3YzczMGYzMiJ9XX0sIm1faWdub3JlUGF0dGVybnMiOltdLCJtX3Jlc3BvbmRUb0Fzc2V0Q2hhbmdlIjp0cnVlfQ==
+    m_inputPoints: []
+    m_outputPoints:
+    - id: 21d26fee-527c-4442-9816-ddfda3b826d3
+      label: +
+      parentId: f8939767-14c8-405b-ab8a-c054f5c97da5
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 117
+        y: 33.5
+        width: 10
+        height: 23
+  m_allConnections: []
+  m_lastModified: 132916597409188786
+  m_version: 2
+  m_graphDescription: 
+  m_useAsAssetPostprocessor: 0
+  m_graphExecOrderPriority: 0

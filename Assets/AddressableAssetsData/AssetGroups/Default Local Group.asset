@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 06b3079d914ad5f46b6b719ba24492dc
+  m_SerializeEntries:
+  - m_GUID: 9ef37d7f9d4ca124393f8a0be013bb04
+    m_Address: ui/labelbutton
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b8b4fd55b38cf54e879cd5522b96e5c
+    m_Address: ui/horizontalscrollview
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0cd5b04d69665040a8eb5f6e6448798
+    m_Address: ui/toggleleft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0ad5c79186d34d42a862e6c816ec7af
+    m_Address: ui/toggleright
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4293d84e500c9f74e8ab3de73aa0688c
+    m_Address: ui/verticalscrollview
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8cfbd5df1b0ca1748a4f32d29565794e
+    m_Address: ui/backimage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 238325e0199380e4b8ca4c75865d8cbe
+    m_Address: ui/text
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 268da97abe1432c4fbe3543c3654150c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 075524001d641ac429878bf92d6d0d5c, type: 2}
+    - {fileID: 11400000, guid: 5bb4ff8a825b89f4bbf74a5040627c17, type: 2}
