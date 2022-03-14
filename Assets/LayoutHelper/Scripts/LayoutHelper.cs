@@ -50,11 +50,17 @@ namespace UI.LayoutHelper
             GameObject newGameObject = Instantiate(prefab, GetParent(parent));
             return newGameObject;
 		}
+        public T InstantiateContent<T>(GameObject prefab, Transform parent = null)
+            where T : Component
+        {
+            GameObject newGameObject = Instantiate(prefab, GetParent(parent));
+            return newGameObject.GetComponent<T>();
+        }
 
 
         public HorizontalLayoutGroup InstantiateHorizontalLayout(
             bool childForceExpandWidth = false
-            , float spacing = 0
+            , float spacing = 8
             , Transform parent = null
             )
         {
