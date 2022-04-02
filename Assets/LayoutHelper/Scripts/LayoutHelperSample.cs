@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UI.LayoutHelper;
-using UI.LayoutHelper.Parts;
+using UI.LayoutHelper.Component;
 
 public class LayoutHelperSample : MonoBehaviour
 {
@@ -36,9 +36,9 @@ public class LayoutHelperSample : MonoBehaviour
         {
             HorizontalLayoutGroup layoutGroup = m_layoutHelper.InstantiateHorizontalLayout();
             Transform parent = layoutGroup.transform;
-            m_layoutHelper.InstantiateContent<ToggleElement>(m_layoutHelper.ToggleLeft, parent)
+            m_layoutHelper.InstantiateContent<LabelToggle>(m_layoutHelper.ToggleLeft, parent)
                 .Setup("Left", isOn: true, value => Debug.Log($"Left:{value}"));
-            m_layoutHelper.InstantiateContent<ToggleElement>(m_layoutHelper.ToggleRight, parent)
+            m_layoutHelper.InstantiateContent<LabelToggle>(m_layoutHelper.ToggleRight, parent)
                 .Setup("Right", isOn: false, value => Debug.Log($"Right:{value}"));
             m_layoutHelper.InstantiateHolizontalFlexibleSpace(parent: parent);
             m_layoutHelper.InstantiateContent<LabelButton>(m_layoutHelper.LabelButton, parent)

@@ -5,9 +5,9 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 
-namespace UI.LayoutHelper.Parts
+namespace UI.LayoutHelper.Component
 {
-    public class ToggleElement : LabelText
+    public class LabelToggle : LabelText
     {
         [SerializeField]
         private Toggle _toggle;

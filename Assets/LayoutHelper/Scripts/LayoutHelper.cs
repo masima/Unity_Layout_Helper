@@ -51,7 +51,7 @@ namespace UI.LayoutHelper
             return newGameObject;
 		}
         public T InstantiateContent<T>(GameObject prefab, Transform parent = null)
-            where T : Component
+            where T : UnityEngine.Component
         {
             GameObject newGameObject = Instantiate(prefab, GetParent(parent));
             return newGameObject.GetComponent<T>();

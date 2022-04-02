@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 
-namespace UI.LayoutHelper.Parts
+namespace UI.LayoutHelper.Component
 {
     public class LabelButton : LabelText
     {

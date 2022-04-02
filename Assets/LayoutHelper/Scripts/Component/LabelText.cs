@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace UI.LayoutHelper.Parts
+namespace UI.LayoutHelper.Component
 {
     public class LabelText : MonoBehaviour
     {
